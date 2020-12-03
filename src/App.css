@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  box-sizing: border-box;
 }
 
 .App-link {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+.for{
+  display: flex;
+}
+.for > input {
+  margin-right: 5px;
+  outline: none;
+  color:gray;
+}
+.erors{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 5px;
+}
+.render-wrap{
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 5px;
+  /* display: flex; */
+  align-items:center;
+  justify-content: center;
+}
+.render-wrap > h2 {
+  padding-right: 10px;
 }
